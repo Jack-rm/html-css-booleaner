@@ -45,18 +45,44 @@ thead {
     background-color: lightblue;
 }
 
+footer {
+    line-height: px;
+}
+
 h5 {
     color: grey;
+    font-weight: bold;
 }
 
 #monitor {
+    width: 300px;
     background-image: url('../img/monitor.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100px;
+    position: relative;
+}
+
+.scritta-monitor {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 5px;
 }
 
 #grafico {
     background-image: url(../img/graph.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100px;
+    position: relative;
+}
+
+.scritta-grafico {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 5px;
 }
