@@ -1,0 +1,46 @@
+header {
+    background-color: rgb(86, 158, 251);
+    background-image: url('../img/pattern.png');
+}
+
+#logo {
+    width: 150px;
+}
+
+#titolo {
+    line-height: 2px;
+}
+
+#titolo > p{
+    font-size: 14px;
+    color: grey;
+}
+
+a {
+    color: rgb(0, 191, 255);
+}
+
+#photos {
+    line-height: 2px;
+}
+
+#photos > p{
+    font-size: 12px;
+}
+
+.over-color{
+    background-color: yellow;
+}
+
+thead {
+    background-color: lightskyblue;
+}
+
+.table-row {
+    background-color: lightblue;
+}
+
+#monitor {
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no repeat;
+}
